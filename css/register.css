@@ -1,0 +1,77 @@
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../imagenes/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    height: 100vh;
+
+  }
+.register{
+  width: 700px;
+  height: 470px;
+  background: rgba(0, 14, 106, 0.86);
+  font-weight:bold;
+  transform: translate(-80%,-5%);
+  top: 50%;
+  left: 50%;
+  border-radius: 25px;
+  position: absolute;
+  box-sizing: border-box;
+}
+ h1{
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  font-weight: 40px;
+}
+.register label{
+  margin-left: 32%;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+}
+.regis{
+  margin-left: 32%;
+  background: rgb(98, 99, 106);
+  border: none;
+  width: 250px;
+  height: 25px;
+  border-radius: 25px;
+  margin-bottom: 8px;
+}
+
+#Registrarce{
+  margin-left: 22%;
+  transform: translate(0%,10px);
+  width: 400px;
+  height: 40px;
+  background: rgb(0, 16, 157);
+  font-weight: bold;
+  border:none;
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: 20px;
+}
+#Registrarce:hover{
+  cursor: pointer;
+  background: rgb(167, 0, 0);
+  font-weight: bold;
+}
+.rol{
+  width: 250px;
+  height: 30px;
+  border:none;
+  transform: translate(90%);
+  border-radius: 25px;
+  font-size: 28px;
+    background: rgb(98, 99, 106);
+}
